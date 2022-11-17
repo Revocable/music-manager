@@ -9,9 +9,9 @@ subopc = 0
 
 #bancos de dados
 
-BDCantores = {"vgod":("mateus","21/07/2000","vgod@gmail.com","16991045382"),}
-BDMusicas = {"te ver":("20/11/2020","plug","1:20","virgingod"),}
-BDGravacoes = {('te ver', 'vgod', '19/12/2020'): ('muito amor', ['fl studio', 'drom']),}
+BDCantores = {}
+BDMusicas = {}
+BDGravacoes = {}
 
 if existearq("bdm.txt","bdc.txt","bdc.txt"):
     leitura(BDMusicas,BDCantores,BDGravacoes)
